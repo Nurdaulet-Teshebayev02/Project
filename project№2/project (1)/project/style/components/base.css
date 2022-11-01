@@ -1,0 +1,16 @@
+body{
+    background-color: #fcf3ea;
+    padding: 0 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: #fff;
+    padding: 0 5%;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 30px;
+}

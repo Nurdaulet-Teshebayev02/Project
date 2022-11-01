@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+}
+
+.header-links a{
+    color: #000;
+    margin-left: 15px;
+    transition: .4s;
+}
+
+.header-links a:hover{
+    color: #bac34e;
+}
+
+@media(max-width:1000px){
+    .header{
+        display: none;
+    }
+}

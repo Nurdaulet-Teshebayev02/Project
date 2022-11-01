@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/> 
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <p>FREE express international delivery + EASY returns</p>
+        </div>
+        <div class="header-links">
+            <a href="">ABOUT</a>
+            <a href="">FAQ</a>
+            <a href="">CONTACT US</a>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="header-menu">
+            <div onclick="openAside()" class="burger-menu-adaptive">
+                <img src="img/burger-menu.png" alt="">
+            </div>
+            <div class="header-logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <div class="header-search">
+                <img src="img/search.png" alt="">
+                <input type="text" placeholder="Enter Keyword...">
+                <button>Search</button>
+            </div>
+            <div class="header-icons">
+                <div>
+                    <img src="img/user.png" alt="">
+                </div>
+                <div>
+                    <img src="img/heart.png" alt="">
+                    <i>0</i>
+                </div>
+                <div>
+                    <img src="img/basket.png" alt="">
+                    <i>0</i>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav">
+            <div class="nav-left">
+                <img src="img/burger-menu.png" alt="">
+                <p>Shop by Department</p>
+            </div>
+
+            <div class="nav-right">
+                <a href="">
+                    Home
+                    <img src="img/down-arrow.png" alt="">
+                </a>
+                <a href="">
+                    Shop
+                    <img src="img/down-arrow.png" alt="">
+                </a>
+                <a href="">
+                    Pages
+                    <img src="img/down-arrow.png" alt="">
+                </a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main-slider">
+                <div class="main-slider-item">
+                <img src="img/main1.webp" alt="">
+                <h4>Fresh and Tasty</h4>
+                <h1>Farm Market
+                    <br>
+                    Organic Shop
+                </h1>
+                <div class="shop-link">
+                    <a href="">
+                        Shop Now
+                        <img src="img/double-arrow-right.png" alt="">
+                    </a>
+                </div>
+                </div>
+                <div class="main-slider-item">
+                    <img src="img/main2.webp" alt="">
+                    <h4>Fresh and Tasty</h4>
+                    <h1>Farm Market
+                        <br>
+                        Organic Shop
+                    </h1>
+                    <div class="shop-link">
+                        <a href="">
+                            Shop Now
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="main-slider-item">
+                        <img src="img/main3.webp" alt="">
+                        <h4>Fresh and Tasty</h4>
+                        <h1>Farm Market
+                            <br>
+                            Organic Shop
+                        </h1>
+                        <div class="shop-link">
+                            <a href="">
+                                Shop Now
+                                <img src="img/double-arrow-right.png" alt="">
+                            </a>
+                        </div>
+                </div>
+            </div>
+            <div class="main-item">
+                <div class="main-item--top">
+                    <h2>Discover <br>
+                        Real Organic <br>
+                        Flavors</h2>
+                    <div class="shop-link">
+                        <a href="">
+                            Shop Now
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="main-item--bottom">
+                    <h4>Summer Sale</h4>
+                    <h2>50% Off</h2>
+                    <p>Vitamins, Supplements and Herbs</p>
+                    <div onclick="openModal()" class="shop-button">
+                        <a>
+                            Shop Now
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="service-item">
+                <div>
+                    <img src="img/service.webp" alt="">
+                </div>
+                
+                <div>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, provident.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div>
+                    <img src="img/service.webp" alt="">
+                </div>
+                <div>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, provident.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div>
+                    <img src="img/service.webp" alt="">
+                </div>
+                <div>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, provident.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div>
+                    <img src="img/service.webp" alt="">
+                </div>
+                <div>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, provident.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="type-Writer">
+            <h2>Freshio is <span id="output"></span> |</h2>
+        </div>
+
+        <div class="feature-main">
+
+            <div class="feature-header">
+                <h2>Featured Products</h2>
+                <div class="shop-link feature-link">
+                    <a href="">
+                        Shop All
+                        <img src="img/double-arrow-right.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="feature">
+                
+                <div class="feature-arrow arrow-left">
+                    <img src="img/arrow-right.png" alt="">
+                </div>
+                <div class="feature-arrow arrow-right">
+                    <img src="img/arrow-right.png" alt="">
+                </div>
+                
+
+                <div class="feature-item">
+                    <img src="img/feature.jpg" alt="">
+                    <h2>Home</h2>
+                    <p>Pamela's Products Artisan Blend Flour Gluten Free</p>
+                    <h3>$18.90</h3>
+                    <span></span>
+                    <div class="shop-link feature-add">
+                        <a href="">
+                            Shop All
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+                    <div class="feature-hidden">
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="img/feature.jpg" alt="">
+                    <h2>Home</h2>
+                    <p>Pamela's Products Artisan Blend Flour Gluten Free</p>
+                    <h3>$18.90</h3>
+                    <span></span>
+                    <div class="shop-link feature-add">
+                        <a href="">
+                            Shop All
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="feature-hidden">
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="img/feature.jpg" alt="">
+                    <h2>Home</h2>
+                    <p>Pamela's Products Artisan Blend Flour Gluten Free</p>
+                    <h3>$18.90</h3>
+                    <span></span>
+                    <div class="shop-link feature-add">
+                        <a href="">
+                            Shop All
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+                    <div class="feature-hidden">
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="img/feature.jpg" alt="">
+                    <h2>Home</h2>
+                    <p>Pamela's Products Artisan Blend Flour Gluten Free</p>
+                    <h3>$18.90</h3>
+                    <span></span>
+                    <div class="shop-link feature-add">
+                        <a href="">
+                            Shop All
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+                    <div class="feature-hidden">
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="counter">
+            <div class="counter-item">
+                <h2 data-num="1000" class="number">0</h2>
+                <p>Довольных клиентов</p>
+            </div>
+            <div class="counter-item">
+                <h2 data-num="10" class="number">0</h2>
+                <p>Лет в сфере</p>
+            </div>
+            <div class="counter-item">
+                <h2 data-num="10000" class="number">0</h2>
+                <p>продукций</p>
+            </div>
+            <div class="counter-item">
+                <h2 data-num="2000" class="number">0</h2>
+                <p>Онлайн покупателей</p>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="grid-item">
+                <div class="grid-left"></div>
+                <div class="grid-right"></div>
+                <img src="img/grid1.webp" alt="">
+                <p>Fruits &  <br> Vegetables</p>
+                <span></span>
+            </div>
+            <div class="grid-item">
+                <div class="grid-left"></div>
+                <div class="grid-right"></div>
+                <img src="img/grid2.webp" alt="">
+                <p>Dairy Bread & <br>  Eggs</p>
+                <span></span>
+            </div>
+            <div class="grid-item">
+                <div class="grid-left"></div>
+                <div class="grid-right"></div>
+                <img src="img/grid3.webp" alt="">
+                <p>Health & <br> Wellness</p>
+                <span></span>
+            </div>
+            <div class="grid-item">
+                <div class="grid-left"></div>
+                <div class="grid-right"></div>
+                <img src="img/grid4.webp" alt="">
+                <p>Package <br>  Foods</p>
+                <span></span>
+            </div>
+            <div class="grid-item">
+                <div class="grid-left"></div>
+                <div class="grid-right"></div>
+               <img src="img/grid5.webp" alt="">
+                <p>Beverages</p>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="feature-main">
+
+            <div class="feature-header feature-header-dop">
+                <h2>Featured Products</h2>
+                <div class="shop-link feature-link">
+                    <a href="">
+                        Shop All
+                        <img src="img/double-arrow-right.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="feature">
+                
+                <div class="feature-arrow arrow-left">
+                    <img src="img/arrow-right.png" alt="">
+                </div>
+                <div class="feature-arrow arrow-right">
+                    <img src="img/arrow-right.png" alt="">
+                </div>
+                
+
+                <div class="feature-item">
+                    <img src="img/feature.jpg" alt="">
+                    <h2>Home</h2>
+                    <p>Pamela's Products Artisan Blend Flour Gluten Free</p>
+                    <h3>$18.90</h3>
+                    <span></span>
+                    <div class="shop-link feature-add">
+                        <a href="">
+                            Shop All
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+                    <div class="feature-hidden">
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="img/feature.jpg" alt="">
+                    <h2>Home</h2>
+                    <p>Pamela's Products Artisan Blend Flour Gluten Free</p>
+                    <h3>$18.90</h3>
+                    <span></span>
+                    <div class="shop-link feature-add">
+                        <a href="">
+                            Shop All
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="feature-hidden">
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="img/feature.jpg" alt="">
+                    <h2>Home</h2>
+                    <p>Pamela's Products Artisan Blend Flour Gluten Free</p>
+                    <h3>$18.90</h3>
+                    <span></span>
+                    <div class="shop-link feature-add">
+                        <a href="">
+                            Shop All
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+                    <div class="feature-hidden">
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="img/feature.jpg" alt="">
+                    <h2>Home</h2>
+                    <p>Pamela's Products Artisan Blend Flour Gluten Free</p>
+                    <h3>$18.90</h3>
+                    <span></span>
+                    <div class="shop-link feature-add">
+                        <a href="">
+                            Shop All
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+                    <div class="feature-hidden">
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/heart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="people">
+            <div class="people-item">
+                <div class="people-item-img">
+                    <img src="img/people1.webp" alt="">
+                </div>
+                <div class="people-info1">
+                    <h2>A shop for good people by good people</h2>
+                    <p>Buy natural, sustainable and chemicalfree products from local sellers across the country.
+                        <br><br>
+                        We are a strong community of 100,000+ customers and 600+ sellers who aspire to be good, do good, and spread goodness. We are a democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on community and quality content.
+                    </p>
+
+                    <div class="shop-link feature-link">
+                        <a href="">
+                            Shop All
+                            <img src="img/double-arrow-right.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="people-item">
+                <div class="people-text">
+                    <div class="people-img">
+                        <img src="img/kav.png" alt="">
+                    </div>
+                    <div class="people-info">
+                        <h2>Why customer love us</h2>
+                        <p>“I have been a regular customer in Freshio and the reason is I get a variety of organic products and it gives me many options to choose from and the Quality of the produce is good.”</p>
+                        <span>Pragya - Bellandur Store</span>
+                    </div>
+                </div>
+                <div class="people-item-img">
+                    <img src="img/people2.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="partner">
+            <img src="img/pertner.jpg" alt="">
+            <img src="img/pertner.jpg" alt="">
+            <img src="img/pertner.jpg" alt="">
+            <img src="img/pertner.jpg" alt="">
+            <img src="img/pertner.jpg" alt="">
+            <img src="img/pertner.jpg" alt="">
+        </div>
+
+        <div class="info">
+            <div class="info-item">
+                <div>
+                    <img src="img/headphone.png" alt="">
+                </div>
+                
+                <div class="info-item-text">
+                    <span>Phone Support</span>
+                    <h2>CALL US 24/7</h2>
+                    <h3>(1800)-88-66-991</h3>
+                    <a href="">contact@example.com</a>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div>
+                    <img src="img/mail.png" alt="">
+                </div>
+                
+                <div class="info-item-text">
+                    <span>Daily Updates</span>
+                    <h2>SUBSCRIBE US</h2>
+                    <p>Sign up and get a voucher of worth $250.00</p>
+                    <div class="info-input">
+                        <input type="text" placeholder="Email adress...">
+                        <img src="img/arrow-right.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-item">
+                <h2>STORE LOCATION</h2>
+                <p>9066 Green Lake Drive Chevy
+                    Chase, MD 20815</p>
+                <span>Monday - Saturday:</span>
+                <h3>8:00 am - 4:00pm</h3>
+                <span>Sunday:</span>
+                <h3>9:00 am - 5:00pm</h3>
+            </div>
+            <div class="footer-item">
+                <h2>INFORMATION</h2>
+                <a href="">About us</a>
+                <a href="">Blog</a>
+                <a href="">Check out</a>
+                <a href="">Contact</a>
+                <a href="">Service</a>
+            </div>
+            <div class="footer-item">
+                <h2>MY ACCOUNT</h2>
+                <a href="">My Account</a>
+                <a href="">Contact</a>
+                <a href="">Shopping cart</a>
+                <a href="">Shop</a>
+            </div>
+            <div class="footer-item">
+                <h2>CATEGORIES</h2>
+                <a href="">Fruits & Vegetables</a>
+                <a href="">Dairy Products</a>
+                <a href="">Package Foods</a>
+                <a href="">Beverage</a>
+                <a href="">Beverage</a>
+            </div>
+            <div class="footer-item">
+                <h2>ACCEPT PAYMENT</h2>
+                <img src="img/footer.webp" alt="">
+                <h2>FOLLOW US</h2>
+            </div>
+        </footer>
+
+        <div class="footer-dop">
+            <p>Copyright © 2021 <span>Freshio</span> . All Rights Reserved.</p>
+        </div>-->
+    </section> 
+    <div class="modal-window" id="modal-window">
+        <div onclick="closeModal()" class="modal-backdrop"></div>
+        <div class="modal-inner">
+            <div onclick="closeModal()" class="modal-close">X</div>
+            <h2>Hello Decode</h2>
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+            <button>Send</button>
+        </div>
+    </div>
+
+    <div class="aside" id="aside">
+        <div onclick="closeAside()" class="aside-backdrop"></div>
+        <div class="aside-inner">
+            <div onclick="closeAside()" class="aside-close">
+                Close X
+            </div>
+            <div class="aside-item">
+                Home
+            </div>
+            <div class="aside-item">
+                Shop
+            </div>
+            <div class="aside-item">
+                Pages
+            </div>
+            <div class="aside-item">
+                Contacts
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script src="js/modal.js"></script>
+    <script src="js/typeWriter.js"></script>
+    <script src="js/asside.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/slider.js"></script>
+
+</body>
+</html>

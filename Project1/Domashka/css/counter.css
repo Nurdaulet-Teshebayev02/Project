@@ -1,0 +1,25 @@
+.counter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    max-width: 1200px;
+    margin-left: 140px;
+}
+
+.counter-item{
+    width: calc(25% - 30px);
+    border-bottom: 3px solid #458ff6;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.counter-item h2{
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.counter p{
+    font-weight: bold;
+}

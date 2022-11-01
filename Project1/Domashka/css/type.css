@@ -1,0 +1,11 @@
+.type-Writer{
+    /* margin-bottom: 20px; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.type-Writer h2{
+    font-size: 30px;
+    font-weight: bold;
+}

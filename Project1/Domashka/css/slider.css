@@ -1,0 +1,16 @@
+
+.wrapper{
+    max-width: 1200px;
+    justify-content: space-around;
+    margin-left: 184px;
+    margin-top: 300px;
+    object-fit: cover;
+}
+
+.wrapper img{
+    border-radius: 50px;
+    object-fit: cover;
+    width: 382px;
+    height: 309px;
+    object-fit: cover;
+}
