@@ -1,0 +1,37 @@
+.list-item {
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dotted #e7e7e7;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    transition: margin .2s ease-in-out;
+}
+
+.list-item:hover,
+.list-item:focus{
+    text-shadow: 0 0 5px black;
+    margin-left: 0.5em;
+    outline: none;
+    position: relative;
+}
+
+/* .list-item:hover{
+    opacity: 1;
+    transition: .4s;
+} */
+
+.list-item::before {
+    position: absolute;
+    left: -1em;
+    /* content: ">"; */
+    /* color: transparent; */
+}
+
+
+
+.list-item:first-of-type {
+    margin-top: 30px;
+}
+

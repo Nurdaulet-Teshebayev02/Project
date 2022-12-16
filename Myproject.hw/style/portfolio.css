@@ -1,0 +1,38 @@
+.containerr {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.portfolio {
+    padding: 90px 0;
+    background-color: #f1f1f1;
+}
+
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.project + .project  {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+    width: 930px;
+    height: 500px;
+}
+
+.project-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title-1 {
+    font-weight: bold;
+    font-size: 38px;
+}

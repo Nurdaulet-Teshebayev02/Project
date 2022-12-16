@@ -1,0 +1,35 @@
+.header{
+    top: 0px;
+    width: 100%;
+    height: 99px;
+    /* background:linear-gradient(86.23deg,#1f5eff 3.42%,#8976ff 95.38%),#fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 30px; */
+}
+
+.header-logo{
+    width: 300px;
+}
+
+.nav-menu{
+    display: flex;
+    margin: 0 10px;
+    grid-gap: 20px;
+}
+
+.header-search {
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+    width: 51%;
+    margin-top: 10px;
+}
